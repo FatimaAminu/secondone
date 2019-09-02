@@ -1,0 +1,87 @@
+.newtop{
+    background-color: #55405F;
+    color: white;
+}
+.newtop ul{
+    list-style-type: none;
+    text-align: right;
+}
+.newtop li{
+    display: inline;
+}
+.nav ul{
+    list-style-type: none;
+}
+.nav li{
+    display: inline;
+}
+.nav ul li a{
+    padding-left: 5px;
+    color:black;   
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #EBEBEB;
+    color: black;
+    padding-bottom: 2px;
+    padding-top: 15px;
+    padding-left: 12px;
+}
+.wrapper h2{
+    padding-top: 80px;
+}
+button{
+    background-color: #544460;
+    color: white;
+    border-radius: 2px;
+    padding: 5px 5px 5px 5px;
+}   
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 1em;
+    /* width: 100%; */
+} 
+.text{
+    height: 45%;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}   
+.secondgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 5em;
+} 
+.nested{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-auto-rows: 100px; */
+    grid-gap: 1em;
+    padding: 1em;
+    background-color: #222222;
+    margin-top: 20px;
+}
+.textpurple{
+    color: #544460;
+    padding-top: 2px;
+}
+.nested h3{
+    color: white;
+     
+}
+.footer{
+    background-color: #222222;
+    padding: 15px;
+}
+
+.footer-right{
+    float: right;
+}
+
+hr{
+    margin: 0px;
+    color: #222222;
+}
